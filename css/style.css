@@ -150,7 +150,7 @@ nav ul a:hover {
   background: url(../backgrounds//home-hero-bg.svg),linear-gradient(180deg,var(--primary-bg-color) 30.12%, var(--accent-color) 192.47%);
   
   /* min-height: 770px; */
-  min-height: 58em;
+  min-height: 52em;
 }
 
 .typed-text {
