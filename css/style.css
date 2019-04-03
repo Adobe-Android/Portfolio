@@ -82,7 +82,7 @@ body {
 .fas,
 .fab {
   padding: 15px;
-  font-size: 2em;
+  font-size: 1.5em;
   border-radius: 50%;
   /* width: 50px; */
   /* text-align: center; */
@@ -141,9 +141,16 @@ nav ul a:hover {
   justify-content: center;
   flex-direction: column;
 
-  min-height: 400px;
+  min-height: 30em;
   line-height: 0;
   height: auto;
+}
+
+.header-parallax {
+  background: url(../backgrounds//home-hero-bg.svg),linear-gradient(180deg,var(--primary-bg-color) 30.12%, var(--accent-color) 192.47%);
+  
+  /* min-height: 770px; */
+  min-height: 58em;
 }
 
 .typed-text {
@@ -188,6 +195,10 @@ nav ul a:hover {
   }
   .tech-icon-block {
     max-width: 5em;
+  }
+  .fas,
+  .fab {
+    font-size: 2em;
   }
 }
 
