@@ -90,12 +90,15 @@ body {
 }
 
 /* Font-Awesome default color */
-.fa-twitter,
 .fa-linkedin,
 .fa-github,
 .fa-envelope {
   background: var(--custom-black);
   color: var(--custom-white);
+}
+
+.footer-contacts {
+  background: var(--accent-color)
 }
 
 /* Font-Awesome color inversion on hover*/
