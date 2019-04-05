@@ -151,9 +151,7 @@ nav ul a:hover {
 
 .header-parallax {
   background: url(../backgrounds//home-hero-bg.svg),linear-gradient(180deg,var(--primary-bg-color) 30.12%, var(--accent-color) 192.47%);
-  
-  /* min-height: 770px; */
-  min-height: 52em;
+  min-height: 48em;
 }
 
 .typed-text {
