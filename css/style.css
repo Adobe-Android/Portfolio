@@ -18,8 +18,13 @@ body {
   z-index: 999;
 }
 
+nav ul a {
+  font-size: 1.4em;
+}
+
 .card .card-image .title-2.card-title {
   color: var(--custom-black);
+  font-weight: bold;
 }
 
 .text-shadow {
