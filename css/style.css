@@ -38,6 +38,7 @@ nav ul a {
 
 /* Round portrait edges */
 .portrait-img {
+  border: 2px solid var(--custom-white);
   border-radius: 200px;
   max-width: 20em;
 }
@@ -104,7 +105,7 @@ nav ul a {
 }
 
 .footer-contacts {
-  background: var(--accent-color)
+  background: var(--accent-color);
 }
 
 /* Font-Awesome color inversion on hover*/
@@ -156,7 +157,12 @@ nav ul a:hover {
 }
 
 .header-parallax {
-  background: url(../backgrounds//home-hero-bg.svg),linear-gradient(180deg,var(--primary-bg-color) 30.12%, var(--accent-color) 192.47%);
+  background: url(../backgrounds//home-hero-bg.svg),
+    linear-gradient(
+      180deg,
+      var(--primary-bg-color) 30.12%,
+      var(--accent-color) 192.47%
+    );
   min-height: 48em;
 }
 
@@ -187,15 +193,13 @@ nav ul a:hover {
 }
 
 /* Overrides Materialize - specifically to better fit project cards */
-@media only screen and (min-width: 992px)
-{
+@media only screen and (min-width: 992px) {
   .container {
     width: 90%;
   }
 }
 
-
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     top: 40%;
   }
@@ -205,7 +209,7 @@ nav ul a:hover {
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }
