@@ -178,6 +178,10 @@ nav ul a:hover {
   width: 100%;
 }
 
+.no-margin {
+  margin: 0rem;
+}
+
 .professional-statement {
   border: 2px solid var(--primary-bg-color);
 }
